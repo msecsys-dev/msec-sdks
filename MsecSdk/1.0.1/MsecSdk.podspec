@@ -14,8 +14,4 @@ Pod::Spec.new do |spec|
   spec.source            = { :http => "https://sdk.msecsys.com/ios/MsecSdk_#{spec.version}.zip" }
   spec.library = 'c++','z'
   spec.vendored_frameworks = 'Msec.xcframework'
-#  spec.xcconfig  =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Frameworks"' }
-#  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-#  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-#  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
